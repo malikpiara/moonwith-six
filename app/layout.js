@@ -8,8 +8,8 @@ import Amplitude from '../analytics';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Wondernest',
-  description: 'A blog and event app by Malik',
+  title: 'Moonwith 6',
+  description: 'A blog by Malik',
 }
 
 export default function RootLayout({ children }) {
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <header className='main-header'>
           <Link href="/">
           <div className='title'>
-            <h1>wondernest</h1>
+            <h1>Moonwith 6</h1>
           </div>
           </Link>
           {/* <div className='subtitle'>
